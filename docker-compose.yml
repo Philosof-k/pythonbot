@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  pbtest:
+  pb:
     build: .
 #    image: andreymalyshenko/aceproxy:x86_64
 #    container_name: aceproxy
