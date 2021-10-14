@@ -10,8 +10,8 @@ services:
 #      - PGID=100
 #      - TZ=Europe/Moscow
 #      - MQTT_BROKER_URL=mqtt://mosquitto
-#    volumes:
-#      - /srv/dev-disk-by-uuid-e8eb8931-061e-4b20-977f-196617efe9d7/docker/acestream/config:/opt/acestream
+    volumes:
+      - /srv/dev-disk-by-uuid-e8eb8931-061e-4b20-977f-196617efe9d7/docker/pythonbot/app:/usr/src/app
 #    ports:
 #      - 6878:6878
 #      - 9001:9001
