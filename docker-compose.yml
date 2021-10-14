@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   pb:
-   build:.
+    build:.
 #    image: andreymalyshenko/aceproxy:x86_64
 #    container_name: aceproxy
 #    user: '998:100'
