@@ -1,9 +1,9 @@
 version: '3.8'
 services:
-  pb:
+  pythonbot:
     build: .
 #    image: andreymalyshenko/aceproxy:x86_64
-#    container_name: aceproxy
+    container_name: pythonbot
 #    user: '998:100'
 #    environment:
 #      - PUID=998
