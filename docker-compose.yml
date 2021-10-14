@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  pb:
+   build: .
+#    image: andreymalyshenko/aceproxy:x86_64
+#    container_name: aceproxy
+#    user: '998:100'
+#    environment:
+#      - PUID=998
+#      - PGID=100
+#      - TZ=Europe/Moscow
+#      - MQTT_BROKER_URL=mqtt://mosquitto
+#    volumes:
+#      - /srv/dev-disk-by-uuid-e8eb8931-061e-4b20-977f-196617efe9d7/docker/acestream/config:/opt/acestream
+#    ports:
+#      - 6878:6878
+#      - 9001:9001
+    restart: unless-stopped
