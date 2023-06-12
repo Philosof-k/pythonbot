@@ -4,5 +4,5 @@ services:
     build: .
     container_name: pythonbot
     volumes:
-      - /srv/dev-disk-by-uuid-e8eb8931-061e-4b20-977f-196617efe9d7/docker/pythonbot/app:/usr/src/app
+      - $DOCKER_DIR/pythonbot/app:/usr/src/app
     restart: unless-stopped
